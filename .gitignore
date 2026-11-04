@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local database
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Local vector database
+knowledge_base/vector_store/
+*.parquet
+
+# Local datasets and backups
+dataset/raw/
+documentation/*backups*/
+results/private/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+
+# Sensitive local application data
+/database/*.db
+/database/*.sqlite
+/database/*.sqlite3
+/helpdesk.db
+
+# Local vector database
+/knowledge_base/vector_store/
+
+# Application logs
+/logs/
+*.log
+
+# Experiment backups
+/documentation/*backups*/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
