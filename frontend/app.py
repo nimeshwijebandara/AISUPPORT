@@ -15,10 +15,16 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from sentence_transformers import SentenceTransformer
 
-BASE_DIR = Path(r"D:\AI_IT_HELPDESK")
+# Portable paths for Windows and cloud deployment
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 DB_PATH = BASE_DIR / "database" / "helpdesk.db"
 MODEL_PATH = BASE_DIR / "models" / "it_helpdesk_classifier_v4.pkl"
 VECTOR_DIR = BASE_DIR / "knowledge_base" / "vector_store"
+
+# Ensure required local directories exist
+DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+VECTOR_DIR.mkdir(parents=True, exist_ok=True)
 ATTACHMENT_DIR = BASE_DIR / "uploads" / "ticket_attachments"
 MAX_ATTACHMENT_SIZE = 10 * 1024 * 1024  # 10 MB
 CONFIDENCE_THRESHOLD = 0.70  # Predictions below 70% require human review.
@@ -655,22 +661,88 @@ st.title("AI-Based IT Helpdesk")
 @st.cache_resource
 def load_ai_components(model_path, vector_dir, model_version):
 
+    import pandas as pd
+
+    # 1. Load existing V4 classifier
     classifier = joblib.load(model_path)
 
-    client = chromadb.PersistentClient(
-        path=vector_dir
-    )
-
-    collection = client.get_collection(
-        name="it_helpdesk_knowledge"
-    )
-
+    # 2. Initialize embedding model
     embedding_model = SentenceTransformer(
         "sentence-transformers/all-MiniLM-L6-v2",
         device="cpu"
     )
 
+    # 3. Initialize ChromaDB
+    client = chromadb.PersistentClient(
+        path=str(vector_dir)
+    )
+
+    # 4. Create or retrieve collection
+    collection = client.get_or_create_collection(
+        name="it_helpdesk_knowledge"
+    )
+
+    # 5. Load knowledge base CSV
+    kb_path = BASE_DIR / "knowledge_base" / "it_knowledge_base.csv"
+
+    if not kb_path.exists():
+        raise FileNotFoundError(
+            f"Knowledge base CSV not found: {kb_path}"
+        )
+
+    kb_df = pd.read_csv(kb_path).fillna("")
+
+    required_columns = [
+        "id", "category", "title", "content", "source"
+    ]
+
+    missing_columns = [
+        col for col in required_columns
+        if col not in kb_df.columns
+    ]
+
+    if missing_columns:
+        raise ValueError(
+            f"Missing knowledge-base columns: {missing_columns}"
+        )
+
+    # 6. Import records only if collection is empty
+    if collection.count() == 0:
+
+        documents = (
+            kb_df["title"].astype(str)
+            + "\n"
+            + kb_df["content"].astype(str)
+        ).tolist()
+
+        embeddings = embedding_model.encode(
+            documents,
+            convert_to_numpy=True
+        ).tolist()
+
+        metadatas = [
+            {
+                "category": str(row["category"]),
+                "title": str(row["title"]),
+                "source": str(row["source"])
+            }
+            for _, row in kb_df.iterrows()
+        ]
+
+        collection.add(
+            ids=kb_df["id"].astype(str).tolist(),
+            documents=documents,
+            embeddings=embeddings,
+            metadatas=metadatas
+        )
+
+    print(
+        "ChromaDB records loaded:",
+        collection.count()
+    )
+
     return classifier, collection, embedding_model
+
 
 
 # Include model file modification time in the cache key.
