@@ -1,0 +1,6 @@
+User_Query,Predicted_Category,Confidence_Percentage,Human_Review_Required
+My office printer is offline.,Printer,91.02,False
+I cannot connect to the company VPN.,Network & VPN,91.54,False
+My Windows password has expired.,Account & Password,80.15,False
+Microsoft Excel is crashing.,Software,71.73,False
+My computer is running very slowly.,System Health,89.92,False

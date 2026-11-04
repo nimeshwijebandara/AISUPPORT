@@ -1,0 +1,9 @@
+User Query,Actual Category,Predicted Category,Correct
+i receive an error when opening software,Software,Software,True
+i cannot access internal websites,Network & VPN,Network & VPN,True
+my disk space is almost full,System Health,System Health,True
+my application is freezing,Software,Software,True
+i cannot access my user account,Account & Password,Account & Password,True
+printer connection has failed,Printer,Printer,True
+i cannot find the office printer,Printer,Printer,True
+windows says my account is disabled,Account & Password,Account & Password,True

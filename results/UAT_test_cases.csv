@@ -1,0 +1,21 @@
+Test_ID,Module,Test_Scenario,Expected_Result,Actual_Result,Status,Remarks
+TC001,Authentication,Login with valid admin credentials,Admin login successful,Admin login successful,PASS,Verified using admin account
+TC002,Authentication,Login with valid user credentials,User login successful,User login successful,PASS,Verified using normal user account
+TC003,Authentication,Login with invalid password,Access denied,Invalid username or password message displayed,PASS,Invalid login rejected
+TC004,RBAC,User accesses Admin Dashboard,Access restricted,Admin Dashboard option not available to normal user,PASS,Verified using normal user account
+TC005,RBAC,Support staff accesses Support Dashboard,Assigned tickets displayed,Support dashboard and assigned tickets displayed,PASS,Verified using support account
+TC006,RBAC,User accesses another user's ticket,Access restricted,Only tickets belonging to the logged-in user displayed,PASS,Verified ticket ownership restriction
+TC007,AI Classification,Submit printer-related issue,Printer category predicted,Printer category predicted,PASS,Verified using printer-related issue
+TC008,AI Classification,Submit password-related issue,Account & Password predicted,Account & Password category predicted,PASS,Verified using password-related issue
+TC009,AI Classification,Submit network-related issue,Network & VPN predicted,Network & VPN category predicted,PASS,Verified using network-related issue
+TC010,RAG,Search Windows password solution,Relevant KB article retrieved,Relevant Windows password KB article retrieved,PASS,Verified through AI Helpdesk RAG response
+TC011,RAG,Search printer troubleshooting solution,Relevant KB article retrieved,Relevant printer troubleshooting KB article retrieved,PASS,Verified through AI Helpdesk RAG response
+TC012,Ticket Management,User creates a new ticket,Ticket saved in database,New support ticket created successfully,PASS,Verified in My Tickets and database
+TC013,Ticket Management,User views My Tickets,Only own tickets displayed,Only logged-in user's tickets displayed,PASS,Verified using normal user account
+TC014,Ticket Management,Admin assigns ticket to support staff,Assignment updated,Ticket assigned to support staff,PASS,Verified using admin account
+TC015,Ticket Management,Support staff updates ticket status,Status updated,Support staff updated ticket status,PASS,Verified using support account
+TC016,Ticket Management,Support staff adds ticket comment,Comment saved and displayed,Support comment saved and displayed,PASS,Verified in ticket conversation
+TC017,SLA,Check ticket response SLA,Correct response SLA status displayed,Response SLA status verified,PASS,Verified in Admin SLA Monitoring
+TC018,SLA,Check ticket resolution SLA,Correct resolution SLA status displayed,Resolution SLA status verified,PASS,Verified in Admin SLA Monitoring
+TC019,Audit Logging,Perform ticket activity,Activity recorded in audit log,Ticket activities recorded in audit log,PASS,Verified using SQLite audit_logs table
+TC020,Dashboard,Admin views performance dashboard,Performance metrics displayed,Admin performance dashboard displayed,PASS,Verified dashboard metrics against database

@@ -1,0 +1,6 @@
+Test_ID,user_query,category,V2_Prediction,V3_Prediction,V2_Correct,V3_Correct,Error_Type
+EXT018,My computer is receiving an invalid IP address.,Network & VPN,System Health,System Health,False,False,Network & VPN -> System Health
+EXT020,I am getting a DNS server not responding error.,Network & VPN,Software,Software,False,False,Network & VPN -> Software
+EXT026,My computer cannot communicate with the network printer.,Printer,Network & VPN,Network & VPN,False,False,Printer -> Network & VPN
+EXT028,Print jobs are taking too long to complete.,Printer,System Health,System Health,False,False,Printer -> System Health
+EXT040,The program reports that it has stopped working.,Software,System Health,Printer,False,False,Software -> Printer

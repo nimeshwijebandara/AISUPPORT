@@ -1,0 +1,8 @@
+Metric,Value
+Total test records,50.0
+AI classified,38.0
+Human review required,12.0
+AI classification coverage (%),76.0
+Accuracy of AI classified records (%),100.0
+Errors among AI classified records,0.0
+Errors sent for human review,5.0

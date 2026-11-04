@@ -1,0 +1,16 @@
+Query,Expected_ID,Retrieved_IDs,Rank,Recall@1,Recall@3,Recall@5,Reciprocal_Rank
+I cannot log into Windows. What should I check?,KB001,"KB001, KB003, KB002, KB010, KB005",1,1,1,1,1.0
+How do I reset my forgotten Windows password?,KB002,"KB002, KB001, KB003, KB005, KB010",1,1,1,1,1.0
+My Windows user account has been locked. How can it be unlocked?,KB003,"KB003, KB001, KB002, KB005, KB014",1,1,1,1,1.0
+My computer cannot connect to the internet. How can I troubleshoot it?,KB004,"KB004, KB006, KB005, KB007, KB001",1,1,1,1,1.0
+My VPN connection is failing. What should I check?,KB005,"KB005, KB006, KB004, KB011, KB012",1,1,1,1,1.0
+Websites are not opening because of a DNS resolution problem.,KB006,"KB006, KB004, KB010, KB005, KB012",1,1,1,1,1.0
+My network printer is offline. How can I fix it?,KB007,"KB007, KB009, KB008, KB004, KB006",1,1,1,1,1.0
+My print jobs are stuck in the printer queue.,KB008,"KB008, KB007, KB009, KB015, KB005",1,1,1,1,1.0
+The printer driver is not working correctly.,KB009,"KB009, KB007, KB008, KB011, KB012",1,1,1,1,1.0
+An application does not open when I click it.,KB010,"KB010, KB012, KB011, KB014, KB004",1,1,1,1,1.0
+How can I troubleshoot a software installation failure?,KB011,"KB011, KB012, KB010, KB009, KB015",1,1,1,1,1.0
+My application keeps crashing. What should I do?,KB012,"KB012, KB010, KB014, KB011, KB013",1,1,1,1,1.0
+My computer has unusually high CPU usage.,KB013,"KB013, KB014, KB015, KB012, KB003",1,1,1,1,1.0
+My computer is running slowly because of high memory usage.,KB014,"KB014, KB013, KB015, KB012, KB003",1,1,1,1,1.0
+My computer is running out of disk space.,KB015,"KB015, KB014, KB013, KB012, KB011",1,1,1,1,1.0

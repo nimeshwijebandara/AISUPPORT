@@ -1,0 +1,51 @@
+Test_ID,user_query,category,predicted_category,correct
+EXT001,I cannot remember my Windows login password.,Account & Password,Account & Password,True
+EXT002,My domain account says the password has expired.,Account & Password,Account & Password,True
+EXT003,My account is locked after several failed login attempts.,Account & Password,Account & Password,True
+EXT004,I cannot sign in to my computer using my domain credentials.,Account & Password,Account & Password,True
+EXT005,How can I change my current Windows password?,Account & Password,Account & Password,True
+EXT006,My username and password are not being accepted.,Account & Password,Account & Password,True
+EXT007,I need assistance resetting my Microsoft 365 password.,Account & Password,Account & Password,True
+EXT008,My account has been disabled and I cannot log in.,Account & Password,Account & Password,True
+EXT009,I can log in to Windows but cannot access my work account.,Account & Password,Account & Password,True
+EXT010,I am getting an authentication error when signing in.,Account & Password,Account & Password,True
+EXT011,My computer is connected to WiFi but websites do not load.,Network & VPN,System Health,False
+EXT012,I cannot connect to the company VPN from home.,Network & VPN,Network & VPN,True
+EXT013,The office network connection keeps disconnecting.,Network & VPN,Network & VPN,True
+EXT014,I cannot access the internal company website.,Network & VPN,Network & VPN,True
+EXT015,My network adapter is showing an unidentified network.,Network & VPN,Network & VPN,True
+EXT016,I cannot access shared folders on the office network.,Network & VPN,Network & VPN,True
+EXT017,The VPN client gets stuck while connecting.,Network & VPN,Network & VPN,True
+EXT018,My computer is receiving an invalid IP address.,Network & VPN,System Health,False
+EXT019,Internet access is very slow on my office computer.,Network & VPN,Network & VPN,True
+EXT020,I am getting a DNS server not responding error.,Network & VPN,Software,False
+EXT021,The network printer is not appearing on my computer.,Printer,Printer,True
+EXT022,My printer displays an offline status.,Printer,Printer,True
+EXT023,Documents are stuck in the Windows print queue.,Printer,Printer,True
+EXT024,The printer is producing blank pages.,Printer,Printer,True
+EXT025,I cannot install the office printer driver.,Printer,Printer,True
+EXT026,My computer cannot communicate with the network printer.,Printer,Network & VPN,False
+EXT027,The printer is showing a paper jam warning.,Printer,Printer,True
+EXT028,Print jobs are taking too long to complete.,Printer,System Health,False
+EXT029,I cannot print PDF documents from my computer.,Printer,Printer,True
+EXT030,The printer driver installation failed.,Printer,Printer,True
+EXT031,Microsoft Excel closes unexpectedly when I open a workbook.,Software,Software,True
+EXT032,The application freezes whenever I try to save a file.,Software,Software,True
+EXT033,I receive an error when launching the company application.,Software,Software,True
+EXT034,Microsoft Outlook is not opening on my computer.,Software,Software,True
+EXT035,The software installation process keeps failing.,Software,Software,True
+EXT036,An application displays a missing DLL error.,Software,Software,True
+EXT037,My browser crashes when accessing the internal system.,Software,Software,True
+EXT038,The application is responding very slowly.,Software,Software,True
+EXT039,I cannot update the installed software.,Software,Software,True
+EXT040,The program reports that it has stopped working.,Software,System Health,False
+EXT041,My computer is running out of disk space.,System Health,System Health,True
+EXT042,The laptop becomes very slow after startup.,System Health,System Health,True
+EXT043,My computer overheats during normal operation.,System Health,System Health,True
+EXT044,The system restarts automatically without warning.,System Health,System Health,True
+EXT045,CPU usage remains at 100 percent.,System Health,System Health,True
+EXT046,My laptop battery drains very quickly.,System Health,System Health,True
+EXT047,Windows takes a long time to boot.,System Health,System Health,True
+EXT048,The computer frequently displays a blue screen.,System Health,System Health,True
+EXT049,RAM usage is unusually high when no applications are open.,System Health,System Health,True
+EXT050,My laptop shuts down unexpectedly.,System Health,System Health,True

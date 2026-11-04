@@ -1,0 +1,6 @@
+﻿Query,Expected Article,Retrieved Articles,Relevant Found
+My printer is offline,KB007,"KB007, KB009, KB008",True
+I cannot connect to office VPN,KB005,"KB005, KB004, KB006",True
+I forgot my Windows password,KB002,"KB002, KB001, KB003",True
+My application keeps crashing,KB012,"KB012, KB010, KB014",True
+My computer has high CPU usage,KB013,"KB013, KB014, KB015",True

@@ -1,0 +1,2 @@
+Model,Test_Records,Multiclass_Brier_Score,Log_Loss,Average_Confidence_Percentage,Actual_Accuracy_Percentage
+V4 Calibrated Linear SVM,50,0.13762318644899657,0.30980926051679974,79.30404032727213,90.0

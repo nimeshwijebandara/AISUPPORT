@@ -1,0 +1,136 @@
+user_query,category
+my printer paper is jammed,Printer
+my printer is showing offline,Printer
+i cannot authenticate to my account,Account & Password
+network speed is very slow,Network & VPN
+my computer has high cpu usage,System Health
+i cannot install new software,Software
+i cannot access the company network,Network & VPN
+my account is locked,Account & Password
+my computer cannot detect the printer,Printer
+the network connection keeps disconnecting,Network & VPN
+the application reports a missing file,Software
+i need help updating an application,Software
+windows is taking too long to start,System Health
+my login credentials are not working,Account & Password
+my application is not opening,Software
+i need to reset my password,Account & Password
+the software is not responding,Software
+my internet connection is not working,Network & VPN
+my computer cannot obtain an ip address,Network & VPN
+the hard drive is showing low space,System Health
+the printer keeps showing an error,Printer
+documents are stuck in the print queue,Printer
+i forgot my windows password,Account & Password
+my computer restarts unexpectedly,System Health
+my computer is running very slowly,System Health
+my computer is overheating,System Health
+vpn connection keeps failing,Network & VPN
+software installation failed,Software
+the application keeps crashing,Software
+i cannot log into my computer,Account & Password
+the printer is printing blank pages,Printer
+my computer keeps freezing,System Health
+i cannot connect to the office vpn,Network & VPN
+printer driver is not working,Printer
+i am unable to sign in after changing my password,Account & Password
+I cannot authenticate using my company username.,Account & Password
+My Windows account password is no longer valid.,Account & Password
+The login screen rejects my correct password.,Account & Password
+I need to unlock my domain user account.,Account & Password
+I cannot sign in after changing my password.,Account & Password
+My Microsoft 365 account keeps requesting credentials.,Account & Password
+The system says my user account is disabled.,Account & Password
+I am unable to access my profile because of a login error.,Account & Password
+My account is locked following multiple incorrect passwords.,Account & Password
+I receive an authentication failure when logging in.,Account & Password
+Windows asks me to enter my credentials repeatedly.,Account & Password
+I cannot access my computer using my domain account.,Account & Password
+My password reset request is not working.,Account & Password
+The account sign-in process keeps failing.,Account & Password
+I receive an invalid credentials notification.,Account & Password
+My account cannot be authenticated by the domain.,Account & Password
+I cannot access my work email due to a password issue.,Account & Password
+The system does not recognise my username.,Account & Password
+I am unable to change my expired password.,Account & Password
+My user account has been blocked.,Account & Password
+My laptop cannot connect to the office network.,Network & VPN
+The company VPN connection fails repeatedly.,Network & VPN
+I cannot browse websites despite being connected to WiFi.,Network & VPN
+The network connection keeps dropping.,Network & VPN
+I cannot access internal company servers.,Network & VPN
+My computer cannot obtain an IP address.,Network & VPN
+The DNS lookup is failing on my computer.,Network & VPN
+I cannot connect to the corporate VPN server.,Network & VPN
+My internet connection is unavailable.,Network & VPN
+The network adapter reports limited connectivity.,Network & VPN
+I cannot open shared network drives.,Network & VPN
+The VPN client reports a connection timeout.,Network & VPN
+The office network is extremely slow.,Network & VPN
+My computer cannot reach the gateway.,Network & VPN
+Internal websites are unavailable over the network.,Network & VPN
+The WiFi connection disconnects frequently.,Network & VPN
+I receive a network path not found error.,Network & VPN
+My computer cannot communicate with the router.,Network & VPN
+The VPN authentication server cannot be reached.,Network & VPN
+I cannot access the internet from my office PC.,Network & VPN
+My office printer is showing as offline.,Printer
+The printer is not responding to print commands.,Printer
+My print jobs remain stuck in the queue.,Printer
+I cannot find the shared network printer.,Printer
+The printer driver is missing from Windows.,Printer
+The printer produces blank documents.,Printer
+My printer cannot connect to its network address.,Printer
+The printer displays a paper jam message.,Printer
+I cannot print documents from Microsoft Word.,Printer
+The printer installation failed.,Printer
+The printer is printing very slowly.,Printer
+My computer cannot detect the USB printer.,Printer
+The print spooler service has stopped.,Printer
+PDF printing fails on the office printer.,Printer
+The printer displays an error status.,Printer
+The printer is not accepting new jobs.,Printer
+I cannot install the network printer.,Printer
+The printer keeps disconnecting from Windows.,Printer
+My documents are not coming out of the printer.,Printer
+The printer driver is reporting an error.,Printer
+Microsoft Excel crashes when opening a spreadsheet.,Software
+Outlook fails to launch after clicking its icon.,Software
+The business application freezes during data entry.,Software
+The installed application displays an unexpected error.,Software
+My browser crashes when opening a web application.,Software
+The software installation wizard cannot complete.,Software
+Microsoft Word stops responding when saving documents.,Software
+The application reports a missing DLL file.,Software
+I cannot update the installed business software.,Software
+The application closes immediately after startup.,Software
+A program is displaying an application error.,Software
+My software is not responding to keyboard input.,Software
+The company application cannot load its main screen.,Software
+The application crashes when processing a transaction.,Software
+The browser displays a script error.,Software
+The software update fails during installation.,Software
+I receive an error when opening a PDF application.,Software
+The application is stuck on its loading screen.,Software
+Microsoft Teams is not starting correctly.,Software
+The software displays an unexpected runtime error.,Software
+My computer is running slowly after startup.,System Health
+The laptop overheats during normal usage.,System Health
+Windows takes too long to boot.,System Health
+My computer shuts down unexpectedly.,System Health
+The system memory usage is unusually high.,System Health
+My laptop battery drains very quickly.,System Health
+The hard disk is almost full.,System Health
+CPU usage remains very high even when idle.,System Health
+The computer frequently displays a blue screen.,System Health
+My laptop restarts without warning.,System Health
+Windows startup takes several minutes.,System Health
+The computer becomes unresponsive during normal use.,System Health
+My laptop fan runs continuously at high speed.,System Health
+The system reports insufficient disk space.,System Health
+The computer performance has decreased significantly.,System Health
+My device freezes even without opening applications.,System Health
+The laptop becomes hot and shuts down.,System Health
+Windows reports a hardware-related error.,System Health
+The computer has very little available RAM.,System Health
+My laptop takes a long time to become usable.,System Health

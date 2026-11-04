@@ -1,0 +1,4 @@
+Threshold,Accepted_Predictions,Sent_For_Review,Coverage_Percentage,Accuracy_Of_Accepted
+60%,43,7,86.0,95.34883720930233
+70%,38,12,76.0,100.0
+80%,30,20,60.0,100.0

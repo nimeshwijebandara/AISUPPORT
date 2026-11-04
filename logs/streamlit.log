@@ -1,0 +1,1592 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-11-03 09:20:03.606 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.8.193:8501
+  External URL: http://123.231.84.3:8501
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 1087.99it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+D:\AI_IT_HELPDESK\frontend\app.py:1047: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 09:21:42.145 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 09:21:42.228 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 09:21:43.112 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code |
+| .py:129 in exec_func_with_error_handling                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_ru |
+| nner.py:789 in code_to_exec                                                          |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:681 in <module>                                    |
+|                                                                                      |
+|    678 # AI HELPDESK                                                                 |
+|    679 # ----------------------------------                                          |
+|    680                                                                               |
+| >  681 if menu == "AI Helpdesk":                                                     |
+|    682                                                                               |
+|    683     st.subheader("How can we help you?")                                      |
+|    684                                                                               |
++--------------------------------------------------------------------------------------+
+NameError: name 'menu' is not defined
+2026-11-03 10:41:37.335 Script compilation error
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 660, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\Nimesh\anaconda3\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1043
+    elif menu == "Admin Dashboard":
+    ^^^^
+SyntaxError: 'elif' block follows an 'else' block
+2026-11-03 10:41:37.345 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code |
+| .py:129 in exec_func_with_error_handling                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_ru |
+| nner.py:789 in code_to_exec                                                          |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:1242 in <module>                                   |
+|                                                                                      |
+|   1239     # TICKET ASSIGNMENT AND UPDATE                                            |
+|   1240     st.subheader("2026-11-03 10:45:07.861 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1242, in <module>
+    if not tickets.empty:
+           ^^^^^^^
+NameError: name 'tickets' is not defined
+D:\AI_IT_HELPDESK\frontend\app.py:1057: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 10:45:13.767 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 10:45:13.800 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code |
+| .py:129 in exec_func_with_error_handling                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_ru |
+| nner.py:789 in code_to_exec                                                          |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:1256 in <module>                                   |
+|                                                                                      |
+|   1253         st.write("Ticket:", selected_row["title"])                            |
+|   1254                                                                               |
+|   1255         # Only admin accounts are assignable at present                       |
+| > 1256         admin_users = pd.read_sql_query(                                      |
+|   1257             """                                                               |
+|   1258             SELECT user_id, username                                          |
+|   1259             FROM users                                                        |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\io\sql.py:497 in read_sql_query   |
+|                                                                                      |
+|    494     assert dtype_backend is not lib.no_default                                |
+|    495                                                                               |
+|    496     with pandasSQL_builder(con) as pandas_sql:                                |
+| >  497         return pandas_sql.read_query(                                         |
+|    498             sql,                                                              |
+|    499             index_col=index_col,                                              |
+|    500             params=params,                                                    |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\io\sql.py:2766 in read_query      |
+|                                                                                      |
+|   2763         dtype: DtypeArg | None = None,                                        |
+|   2764         dtype_backend: DtypeBackend | Literal["numpy"] = "numpy",             |
+|   2765     ) -> DataFrame | Iterator[DataFrame]:                                     |
+| > 2766         cursor = self.execute(sql, params)                                    |
+|   2767         columns = [col_desc[0] for col_desc in cursor.description]            |
+|   2768                                                                               |
+|   2769         if chunksize is not None:                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\io\sql.py:2700 in execute         |
+|                                                                                      |
+|   2697         if not isinstance(sql, str):                                          |
+|   2698             raise TypeError("Query must be a string unless using sqlalchemy." |
+|   2699         args = [] if params is None else [params]                             |
+| > 2700         cur = self.con.cursor()                                               |
+|   2701         try:                                                                  |
+|   2702             cur.execute(sql, *args)                                           |
+|   2703             return cur                                                        |
++--------------------------------------------------------------------------------------+
+ProgrammingError: Cannot operate on a closed database.
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code |
+| .py:129 in exec_func_with_error_handling                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_ru |
+| nner.py:789 in code_to_exec                                                          |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:1242 in <module>                                   |
+|                                                                                      |
+|   1239     # TICKET ASSIGNMENT AND UPDATE                                            |
+|   1240     st.subheader("2026-11-03 10:45:28.392 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1242, in <module>
+    if not tickets.empty:
+           ^^^^^^^
+NameError: name 'tickets' is not defined
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code |
+| .py:129 in exec_func_with_error_handling                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_ru |
+| nner.py:789 in code_to_exec                                                          |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:1242 in <module>                                   |
+|                                                                                      |
+|   1239     # TICKET ASSIGNMENT AND UPDATE                                            |
+|   1240     st.subheader("2026-11-03 10:48:27.825 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1242, in <module>
+    if not tickets.empty:
+           ^^^^^^^
+NameError: name 'tickets' is not defined
+2026-11-03 10:48:33.157 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code |
+| .py:129 in exec_func_with_error_handling                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_ru |
+| nner.py:789 in code_to_exec                                                          |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:1393 in <module>                                   |
+|                                                                                      |
+|   1390     # TICKET STATUS CHART                                                     |
+|   1391     st.subheader("2026-11-03 10:48:33.779 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1393, in <module>
+    status_chart = pd.read_sql_query(
+        """
+    ...<4 lines>...
+        conn
+    )
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\io\sql.py", line 497, in read_sql_query
+    return pandas_sql.read_query(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        sql,
+        ^^^^
+    ...<6 lines>...
+        dtype_backend=dtype_backend,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\io\sql.py", line 2766, in read_query
+    cursor = self.execute(sql, params)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\io\sql.py", line 2700, in execute
+    cur = self.con.cursor()
+sqlite3.ProgrammingError: Cannot operate on a closed database.
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code |
+| .py:129 in exec_func_with_error_handling                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_ru |
+| nner.py:789 in code_to_exec                                                          |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:1242 in <module>                                   |
+|                                                                                      |
+|   1239     # TICKET ASSIGNMENT AND UPDATE                                            |
+|   1240     st.subheader("2026-11-03 10:48:47.446 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1242, in <module>
+    if not tickets.empty:
+           ^^^^^^^
+NameError: name 'tickets' is not defined
+2026-11-03 10:51:30.145 Script compilation error
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 660, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\Nimesh\anaconda3\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1257
+    if not tickets.empty:
+IndentationError: unexpected indent
+2026-11-03 10:51:30.147 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-03 10:51:35.687 Script compilation error
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 660, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\Nimesh\anaconda3\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1257
+    if not tickets.empty:
+IndentationError: unexpected indent
+2026-11-03 10:51:35.689 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-03 10:57:36.193 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+2026-11-03 10:58:55.302 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:03:00.481 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:03:00.518 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:03:00.577 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:03:42.928 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:03:42.970 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:03:43.027 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:04:15.996 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:04:16.042 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:04:16.457 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:04:16.496 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:04:16.552 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:04:29.102 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:04:29.125 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:04:29.177 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:05:00.289 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:05:44.777 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:06:00.506 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:06:21.921 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:06:36.977 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:07:23.097 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:07:23.121 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:07:23.170 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:07:32.577 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:07:32.606 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:07:32.650 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:07:46.118 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:07:46.149 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:07:46.199 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:08:03.712 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:08:03.741 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:08:04.134 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:08:04.166 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:08:04.210 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:08:26.541 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:08:44.309 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:08:59.292 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:35:34.104 Script compilation error
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 660, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\Nimesh\anaconda3\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1529
+    conn.close()
+IndentationError: unexpected indent
+2026-11-03 11:35:34.107 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-03 11:40:58.740 Script compilation error
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 660, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\Nimesh\anaconda3\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1338
+    st.divider()
+IndentationError: unexpected indent
+2026-11-03 11:40:58.743 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-03 11:41:00.917 Script compilation error
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 660, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\Nimesh\anaconda3\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1338
+    st.divider()
+IndentationError: unexpected indent
+2026-11-03 11:41:00.919 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-03 11:46:06.733 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:46:14.544 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:48:50.907 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:48:58.305 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:49:04.389 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:49:04.726 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:49:14.414 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:49:20.301 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1067: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code |
+| .py:129 in exec_func_with_error_handling                                             |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_ru |
+| nner.py:789 in code_to_exec                                                          |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:1070 in <module>                                   |
+|                                                                                      |
+|   1067     now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")                |
+|   1068     if not sla_df.empty:                                                      |
+|   1069         sla_df["Response SLA"] = sla_df.apply(lambda r: sla_state(r["response |
+| > 1070         sla_df["Resolution SLA"] = sla_df.apply(lambda r: sla_state(r["resolu |
+|   1071         sla_cols = ["ticket_id", "title", "priority", "status", "response_due |
+|   1072         st.dataframe(sla_df[sla_cols], use_container_width=True, hide_index=T |
+|   1073         response_breaches = int(sla_df["Response SLA"].isin(["Overdue", "Brea |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\core\frame.py:12435 in apply      |
+|                                                                                      |
+|   12432                 args=args,                                                   |
+|   12433                 kwargs=kwargs,                                               |
+|   12434             )                                                                |
+| > 12435             return op.apply().__finalize__(self, method="apply")             |
+|   12436         elif hasattr(engine, "__pandas_udf__"):                              |
+|   12437             if result_type is not None:                                      |
+|   12438                 raise NotImplementedError(                                   |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\core\apply.py:1015 in apply       |
+|                                                                                      |
+|   1012         elif self.raw:                                                        |
+|   1013             return self.apply_raw(engine=self.engine, engine_kwargs=self.engi |
+|   1014                                                                               |
+| > 1015         return self.apply_standard()                                          |
+|   1016                                                                               |
+|   1017     def agg(self):                                                            |
+|   1018         obj = self.obj                                                        |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\core\apply.py:1167 in             |
+| apply_standard                                                                       |
+|                                                                                      |
+|   1164                                                                               |
+|   1165     def apply_standard(self):                                                 |
+|   1166         if self.engine == "python":                                           |
+| > 1167             results, res_index = self.apply_series_generator()                |
+|   1168         else:                                                                 |
+|   1169             results, res_index = self.apply_series_numba()                    |
+|   1170                                                                               |
+|                                                                                      |
+| C:\Users\Nimesh\anaconda3\Lib\site-packages\pandas\core\apply.py:1183 in             |
+| apply_series_generator                                                               |
+|                                                                                      |
+|   1180         results = {}                                                          |
+|   1181                                                                               |
+|   1182         for i, v in enumerate(series_gen):                                    |
+| > 1183             results[i] = self.func(v, *self.args, **self.kwargs)              |
+|   1184             if isinstance(results[i], ABCSeries):                             |
+|   1185                 # If we have a view on v, we need to make a copy because      |
+|   1186                 #  series_generator will swap out the underlying data         |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:1070 in <lambda>                                   |
+|                                                                                      |
+|   1067     now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")                |
+|   1068     if not sla_df.empty:                                                      |
+|   1069         sla_df["Response SLA"] = sla_df.apply(lambda r: sla_state(r["response |
+| > 1070         sla_df["Resolution SLA"] = sla_df.apply(lambda r: sla_state(r["resolu |
+|   1071         sla_cols = ["ticket_id", "title", "priority", "status", "response_due |
+|   1072         st.dataframe(sla_df[sla_cols], use_container_width=True, hide_index=T |
+|   1073         response_breaches = int(sla_df["Response SLA"].isin(["Overdue", "Brea |
+|                                                                                      |
+| D:\AI_IT_HELPDESK\frontend\app.py:267 in sla_state                                   |
+|                                                                                      |
+|    264                                                                               |
+|    265 def sla_state(due_at, completed_at=None, now=None):                           |
+|    266     if completed_at:                                                          |
+| >  267         return "Met" if completed_at <= due_at else "Breached"                |
+|    268     now = now or datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")              |
+|    269     return "Overdue" if due_at and now > due_at else "Within SLA"             |
+|    270                                                                               |
++--------------------------------------------------------------------------------------+
+TypeError: '<=' not supported between instances of 'float' and 'str'
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 11:52:45.164 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:52:45.193 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:52:45.304 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 11:52:45.356 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 12:20:54.244 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 12:20:54.270 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 12:20:54.343 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 12:20:54.407 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 12:20:54.659 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+2026-11-03 14:28:11.374 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 14:30:17.723 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:30:17.751 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:30:17.828 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:30:17.889 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:30:18.137 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 14:32:31.666 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:32:31.701 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:32:31.766 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:32:31.825 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:32:32.050 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 14:32:48.194 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:32:48.223 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:32:48.291 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:32:48.346 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:32:48.561 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 14:33:02.546 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:02.577 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:02.636 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:02.687 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 14:33:03.317 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:03.351 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:03.412 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:03.463 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:03.692 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:40.642 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:33:49.356 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:34:35.339 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:34:35.728 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:36:53.940 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:36:54.364 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:37:36.258 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:37:36.641 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:37:47.843 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 14:38:10.384 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:38:10.408 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:38:10.471 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:38:10.525 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:38:10.763 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 14:38:29.637 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:38:29.668 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:38:29.729 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:38:29.792 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 14:38:30.009 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:18:27.667 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:19:38.705 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:27:57.787 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+2026-11-03 15:32:54.987 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+2026-11-03 15:40:04.968 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 15:41:04.553 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:04.579 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:04.651 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:04.718 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:04.964 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 15:41:23.597 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:23.627 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:23.686 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:23.740 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:23.957 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 15:41:59.367 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:59.397 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:59.459 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:41:59.509 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:258: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  created = created_at or datetime.utcnow()
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 15:42:00.136 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:00.165 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:00.227 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:00.283 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:00.489 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:10.185 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 15:42:19.687 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:19.711 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:19.776 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:19.835 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:42:20.068 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:44:05.178 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:44:28.203 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:44:28.636 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:45:21.368 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:45:21.776 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 15:47:24.518 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:47:24.543 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:47:24.614 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:47:24.672 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 15:47:24.912 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1078: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-03 16:53:24.376 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 16:53:24.403 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 16:53:24.480 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 16:53:24.542 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-03 16:53:24.779 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nimesh\anaconda3\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+D:\AI_IT_HELPDESK\frontend\app.py:1230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 09:29:25.662 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 09:29:25.709 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 09:29:25.891 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 09:29:26.018 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 09:29:26.547 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 09:31:44.829 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 09:31:44.891 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 09:31:45.061 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 09:31:45.210 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 09:31:45.763 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:05:33.127 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 10:05:33.257 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:05:33.301 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:05:33.412 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:05:33.505 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:05:33.977 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:20.549 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 10:12:20.714 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:20.794 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:20.953 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:21.098 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:21.673 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:51.954 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 10:12:52.139 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:52.211 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:52.359 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:52.493 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:12:53.032 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:13:18.232 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:13:18.899 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 10:13:19.080 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:13:19.130 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:13:19.264 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:13:19.386 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 10:13:19.929 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  25%|##5       | 26/103 [00:00<00:00, 248.59it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 705.38it/s]
+2026-11-04 11:03:11.924 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:03:12.669 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1238: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 11:03:12.803 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:03:12.848 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:03:12.966 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:03:13.067 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:03:13.528 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:15:58.051 Script compilation error
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 660, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\Nimesh\anaconda3\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 1147
+    conn = sqlite3.connect(DB_PATH)
+    ^^^^
+IndentationError: expected an indented block after function definition on line 1145
+2026-11-04 11:15:58.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-04 11:16:34.765 Script compilation error
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 660, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+  File "C:\Users\Nimesh\anaconda3\Lib\site-packages\streamlit\runtime\scriptrunner\magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+  File "C:\Users\Nimesh\anaconda3\Lib\ast.py", line 46, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "D:\AI_IT_HELPDESK\frontend\app.py", line 339
+    conn = sqlite3.connect(DB_PATH)
+    ^^^^
+IndentationError: expected an indented block after function definition on line 337
+2026-11-04 11:16:34.767 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-04 11:19:48.403 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:19:48.446 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1290: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 11:19:48.511 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:19:48.540 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:19:48.613 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:19:48.679 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:19:48.920 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:18.923 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:18.944 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1290: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 11:22:19.015 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:19.036 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:19.103 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:19.164 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:19.421 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:30.405 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:30.432 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+D:\AI_IT_HELPDESK\frontend\app.py:1290: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now_text = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+2026-11-04 11:22:30.506 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:30.535 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:30.611 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:30.668 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-11-04 11:22:30.908 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\Nimesh\anaconda3\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nimesh\anaconda3\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

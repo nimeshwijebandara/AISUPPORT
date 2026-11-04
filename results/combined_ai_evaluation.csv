@@ -1,0 +1,8 @@
+Component,Metric,Score
+AI Classification,Accuracy,1.0
+AI Classification,Macro Precision,1.0
+AI Classification,Macro Recall,1.0
+AI Classification,Macro F1,1.0
+RAG Retrieval,Precision@3,0.3333333333333333
+RAG Retrieval,Recall@3,1.0
+RAG Retrieval,MRR,1.0

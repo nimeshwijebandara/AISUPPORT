@@ -1,0 +1,31 @@
+Training_ID,user_query,category
+TARGET001,The office Wi-Fi connection keeps disconnecting.,Network & VPN
+TARGET002,I cannot connect to the corporate VPN server.,Network & VPN
+TARGET003,My computer cannot obtain an IP address from DHCP.,Network & VPN
+TARGET004,The DNS lookup failed when accessing company websites.,Network & VPN
+TARGET005,The network adapter shows no internet connectivity.,Network & VPN
+TARGET006,I receive a network gateway unreachable error.,Network & VPN
+TARGET007,The VPN client fails during authentication.,Network & VPN
+TARGET008,My laptop cannot connect to the office LAN.,Network & VPN
+TARGET009,The network connection is limited or unavailable.,Network & VPN
+TARGET010,I cannot access shared network folders because of connectivity.,Network & VPN
+TARGET011,The computer reports a duplicate IP address on the network.,Network & VPN
+TARGET012,The VPN tunnel disconnects repeatedly during work.,Network & VPN
+TARGET013,The network cable is connected but there is no network access.,Network & VPN
+TARGET014,The computer cannot resolve internal DNS hostnames.,Network & VPN
+TARGET015,I cannot reach the company intranet through the network.,Network & VPN
+TARGET016,The office printer does not respond to print commands.,Printer
+TARGET017,My documents remain stuck in the printer queue.,Printer
+TARGET018,Windows cannot detect the connected office printer.,Printer
+TARGET019,The printer displays a paper jam warning.,Printer
+TARGET020,The printer driver installation has failed.,Printer
+TARGET021,The printer produces blank pages when printing.,Printer
+TARGET022,I cannot select the network printer from Microsoft Word.,Printer
+TARGET023,The printer status shows paused instead of ready.,Printer
+TARGET024,The printer is displaying an offline status in Windows.,Printer
+TARGET025,Print jobs are failing because the printer spooler stopped.,Printer
+TARGET026,My computer takes a long time to start Windows.,System Health
+TARGET027,The laptop becomes unresponsive because memory usage is high.,System Health
+TARGET028,Windows frequently freezes during normal operation.,System Health
+TARGET029,The computer has insufficient disk space on its system drive.,System Health
+TARGET030,The operating system restarts unexpectedly during use.,System Health

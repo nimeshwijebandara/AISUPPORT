@@ -1,0 +1,13 @@
+Test_ID,user_query,category,Predicted_Category,Confidence,Confidence_Percentage,Correct,Confidence_Band,Confidence_Decision,Routing_Reason
+EXT010,I am getting an authentication error when signing in.,Account & Password,Account & Password,0.4438865086118227,44.39,True,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT011,My computer is connected to WiFi but websites do not load.,Network & VPN,Network & VPN,0.4867616401123424,48.68,True,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT015,My network adapter is showing an unidentified network.,Network & VPN,Network & VPN,0.6997305950557251,69.97,True,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT018,My computer is receiving an invalid IP address.,Network & VPN,System Health,0.3889229391720131,38.89,False,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT020,I am getting a DNS server not responding error.,Network & VPN,Software,0.4508699420045657,45.09,False,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT026,My computer cannot communicate with the network printer.,Printer,Network & VPN,0.6428766912923922,64.29,False,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT028,Print jobs are taking too long to complete.,Printer,System Health,0.6245494835061095,62.45,False,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT029,I cannot print PDF documents from my computer.,Printer,Printer,0.6245924245669261,62.46,True,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT031,Microsoft Excel closes unexpectedly when I open a workbook.,Software,Software,0.6199606156276778,62.0,True,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT034,Microsoft Outlook is not opening on my computer.,Software,Software,0.5947152310822622,59.47,True,50-60%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT037,My browser crashes when accessing the internal system.,Software,Software,0.557271338396842,55.73,True,50-60%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT040,The program reports that it has stopped working.,Software,Printer,0.3228255051703962,32.28,False,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold

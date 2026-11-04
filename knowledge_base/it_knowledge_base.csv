@@ -1,0 +1,186 @@
+﻿id,category,title,content,source
+KB001,Account & Password,Windows Login Failure,"
+        Problem: User cannot log into Windows.
+
+        Troubleshooting:
+        1. Verify the username.
+        2. Check keyboard layout and Caps Lock.
+        3. Record the displayed error message.
+        4. Check whether the account is locked or disabled.
+        5. Contact an authorised administrator if required.
+
+        Safety: Never request or store the user's password.
+        ",Demo IT Support Knowledge Base
+KB002,Account & Password,Password Reset,"
+        Problem: User forgot the Windows password.
+
+        Troubleshooting:
+        1. Verify the user's identity.
+        2. Follow the organisation's approved password reset procedure.
+        3. Confirm successful authentication.
+        4. Never share passwords through chat or email.
+
+        Safety: Password reset requires authorised procedures.
+        ",Demo IT Support Knowledge Base
+KB003,Account & Password,Account Locked,"
+        Problem: Windows account is locked.
+
+        Troubleshooting:
+        1. Record the account lockout error.
+        2. Check whether repeated login failures occurred.
+        3. Verify account status with an administrator.
+        4. Follow the approved account unlock process.
+
+        Safety: Do not bypass account security controls.
+        ",Demo IT Support Knowledge Base
+KB004,Network & VPN,Internet Connection Failure,"
+        Problem: Computer cannot access the internet.
+
+        Troubleshooting:
+        1. Check network cable or WiFi connection.
+        2. Check network adapter status.
+        3. Run ipconfig to inspect IP configuration.
+        4. Test connectivity to the default gateway.
+        5. Check DNS resolution.
+        6. Contact network support if the issue continues.
+
+        Safety: Use read-only diagnostic commands first.
+        ",Demo IT Support Knowledge Base
+KB005,Network & VPN,VPN Connection Failure,"
+        Problem: User cannot connect to the company VPN.
+
+        Troubleshooting:
+        1. Confirm internet connectivity.
+        2. Check the VPN client status.
+        3. Verify the VPN server address.
+        4. Check authentication and MFA errors.
+        5. Record the error message.
+        6. Escalate to the network administrator.
+
+        Safety: Never request OTP codes or bypass MFA.
+        ",Demo IT Support Knowledge Base
+KB006,Network & VPN,DNS Resolution Failure,"
+        Problem: DNS server is not responding.
+
+        Troubleshooting:
+        1. Check IP configuration.
+        2. Verify the configured DNS server.
+        3. Use nslookup to test name resolution.
+        4. Compare results with a known working system.
+        5. Escalate persistent DNS issues.
+
+        Safety: Do not change DNS settings without authorisation.
+        ",Demo IT Support Knowledge Base
+KB007,Printer,Printer Offline,"
+        Problem: Network printer shows offline.
+
+        Troubleshooting:
+        1. Check printer power and display.
+        2. Check network connection.
+        3. Verify the printer IP address.
+        4. Check the Windows printer status.
+        5. Inspect the print queue.
+        6. Contact printer support if unresolved.
+
+        Safety: Do not install unverified printer drivers.
+        ",Demo IT Support Knowledge Base
+KB008,Printer,Print Queue Stuck,"
+        Problem: Documents remain in the print queue.
+
+        Troubleshooting:
+        1. Open the printer queue.
+        2. Identify the stuck document.
+        3. Record any displayed error.
+        4. Follow the approved queue recovery process.
+        5. Test printing with a small document.
+
+        Safety: Obtain approval before stopping print services.
+        ",Demo IT Support Knowledge Base
+KB009,Printer,Printer Driver Error,"
+        Problem: Printer driver is not functioning correctly.
+
+        Troubleshooting:
+        1. Identify the printer manufacturer and model.
+        2. Check the installed driver version.
+        3. Review Windows device status.
+        4. Obtain an approved driver.
+        5. Escalate installation issues if permissions are required.
+
+        Safety: Do not install drivers from untrusted sources.
+        ",Demo IT Support Knowledge Base
+KB010,Software,Application Not Opening,"
+        Problem: Application fails to open.
+
+        Troubleshooting:
+        1. Record the application name.
+        2. Capture the error message.
+        3. Check application compatibility.
+        4. Review application logs.
+        5. Check whether updates are available.
+        6. Escalate persistent errors.
+
+        Safety: Do not disable endpoint security.
+        ",Demo IT Support Knowledge Base
+KB011,Software,Software Installation Failure,"
+        Problem: Software installation fails.
+
+        Troubleshooting:
+        1. Check the installer file.
+        2. Verify system requirements.
+        3. Review installation error messages.
+        4. Check user installation permissions.
+        5. Request authorised software deployment if necessary.
+
+        Safety: Only use approved software packages.
+        ",Demo IT Support Knowledge Base
+KB012,Software,Application Crashing,"
+        Problem: Application crashes repeatedly.
+
+        Troubleshooting:
+        1. Record when the application crashes.
+        2. Identify the application version.
+        3. Check available system resources.
+        4. Review application error logs.
+        5. Check known software updates.
+        6. Escalate if crashes continue.
+
+        Safety: Preserve logs before changing configurations.
+        ",Demo IT Support Knowledge Base
+KB013,System Health,High CPU Usage,"
+        Problem: Computer has unusually high CPU usage.
+
+        Troubleshooting:
+        1. Open Task Manager.
+        2. Inspect CPU utilisation.
+        3. Identify processes using high CPU.
+        4. Record application names.
+        5. Review system logs.
+        6. Escalate suspicious processes.
+
+        Safety: Do not terminate unknown security processes.
+        ",Demo IT Support Knowledge Base
+KB014,System Health,High Memory Usage,"
+        Problem: Computer has high RAM usage.
+
+        Troubleshooting:
+        1. Open Task Manager.
+        2. Check memory utilisation.
+        3. Identify high memory applications.
+        4. Record available memory.
+        5. Review resource-intensive processes.
+        6. Escalate persistent performance problems.
+
+        Safety: Do not terminate critical system processes.
+        ",Demo IT Support Knowledge Base
+KB015,System Health,Low Disk Space,"
+        Problem: Computer reports insufficient disk space.
+
+        Troubleshooting:
+        1. Check available disk capacity.
+        2. Identify large folders.
+        3. Review temporary file usage.
+        4. Follow approved disk cleanup procedures.
+        5. Escalate if storage expansion is required.
+
+        Safety: Do not delete business records or user documents.
+        ",Demo IT Support Knowledge Base

@@ -1,0 +1,2 @@
+Model,Training_Records,Test_Records,Accuracy,Macro_Precision,Macro_Recall,Macro_F1
+V4 Calibrated Linear SVM,162,50,0.9,0.9022222222222223,0.9,0.8986602870813396

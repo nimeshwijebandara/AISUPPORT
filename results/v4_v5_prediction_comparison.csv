@@ -1,0 +1,51 @@
+user_query,category,V4_Prediction,V5_Prediction,V4_Correct,V5_Correct,Prediction_Changed
+I cannot remember my Windows login password.,Account & Password,Account & Password,Account & Password,True,True,False
+My domain account says the password has expired.,Account & Password,Account & Password,Account & Password,True,True,False
+My account is locked after several failed login attempts.,Account & Password,Account & Password,Account & Password,True,True,False
+I cannot sign in to my computer using my domain credentials.,Account & Password,Account & Password,Account & Password,True,True,False
+How can I change my current Windows password?,Account & Password,Account & Password,Account & Password,True,True,False
+My username and password are not being accepted.,Account & Password,Account & Password,Account & Password,True,True,False
+I need assistance resetting my Microsoft 365 password.,Account & Password,Account & Password,Account & Password,True,True,False
+My account has been disabled and I cannot log in.,Account & Password,Account & Password,Account & Password,True,True,False
+I can log in to Windows but cannot access my work account.,Account & Password,Account & Password,Account & Password,True,True,False
+I am getting an authentication error when signing in.,Account & Password,Account & Password,Account & Password,True,True,False
+My computer is connected to WiFi but websites do not load.,Network & VPN,Network & VPN,Network & VPN,True,True,False
+I cannot connect to the company VPN from home.,Network & VPN,Network & VPN,Network & VPN,True,True,False
+The office network connection keeps disconnecting.,Network & VPN,Network & VPN,Network & VPN,True,True,False
+I cannot access the internal company website.,Network & VPN,Network & VPN,Network & VPN,True,True,False
+My network adapter is showing an unidentified network.,Network & VPN,Network & VPN,Network & VPN,True,True,False
+I cannot access shared folders on the office network.,Network & VPN,Network & VPN,Network & VPN,True,True,False
+The VPN client gets stuck while connecting.,Network & VPN,Network & VPN,Network & VPN,True,True,False
+My computer is receiving an invalid IP address.,Network & VPN,System Health,System Health,False,False,False
+Internet access is very slow on my office computer.,Network & VPN,Network & VPN,Network & VPN,True,True,False
+I am getting a DNS server not responding error.,Network & VPN,Software,Software,False,False,False
+The network printer is not appearing on my computer.,Printer,Printer,Printer,True,True,False
+My printer displays an offline status.,Printer,Printer,Printer,True,True,False
+Documents are stuck in the Windows print queue.,Printer,Printer,Printer,True,True,False
+The printer is producing blank pages.,Printer,Printer,Printer,True,True,False
+I cannot install the office printer driver.,Printer,Printer,Printer,True,True,False
+My computer cannot communicate with the network printer.,Printer,Network & VPN,Network & VPN,False,False,False
+The printer is showing a paper jam warning.,Printer,Printer,Printer,True,True,False
+Print jobs are taking too long to complete.,Printer,System Health,System Health,False,False,False
+I cannot print PDF documents from my computer.,Printer,Printer,Printer,True,True,False
+The printer driver installation failed.,Printer,Printer,Printer,True,True,False
+Microsoft Excel closes unexpectedly when I open a workbook.,Software,Software,Software,True,True,False
+The application freezes whenever I try to save a file.,Software,Software,Software,True,True,False
+I receive an error when launching the company application.,Software,Software,Software,True,True,False
+Microsoft Outlook is not opening on my computer.,Software,Software,Software,True,True,False
+The software installation process keeps failing.,Software,Software,Software,True,True,False
+An application displays a missing DLL error.,Software,Software,Software,True,True,False
+My browser crashes when accessing the internal system.,Software,Software,Software,True,True,False
+The application is responding very slowly.,Software,Software,Software,True,True,False
+I cannot update the installed software.,Software,Software,Software,True,True,False
+The program reports that it has stopped working.,Software,Printer,Printer,False,False,False
+My computer is running out of disk space.,System Health,System Health,System Health,True,True,False
+The laptop becomes very slow after startup.,System Health,System Health,System Health,True,True,False
+My computer overheats during normal operation.,System Health,System Health,System Health,True,True,False
+The system restarts automatically without warning.,System Health,System Health,System Health,True,True,False
+CPU usage remains at 100 percent.,System Health,System Health,System Health,True,True,False
+My laptop battery drains very quickly.,System Health,System Health,System Health,True,True,False
+Windows takes a long time to boot.,System Health,System Health,System Health,True,True,False
+The computer frequently displays a blue screen.,System Health,System Health,System Health,True,True,False
+RAM usage is unusually high when no applications are open.,System Health,System Health,System Health,True,True,False
+My laptop shuts down unexpectedly.,System Health,System Health,System Health,True,True,False

@@ -1,0 +1,6 @@
+,precision,recall,f1-score,support
+Account & Password,1.0,1.0,1.0,2.0
+Network & VPN,1.0,1.0,1.0,1.0
+Printer,1.0,1.0,1.0,2.0
+Software,1.0,1.0,1.0,2.0
+System Health,1.0,1.0,1.0,1.0

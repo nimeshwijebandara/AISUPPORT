@@ -1,0 +1,51 @@
+Test_ID,user_query,category,Predicted_Category,Confidence,Confidence_Percentage,Correct,Confidence_Band,Confidence_Decision,Routing_Reason
+EXT001,I cannot remember my Windows login password.,Account & Password,Account & Password,0.8824864473879186,88.25,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT002,My domain account says the password has expired.,Account & Password,Account & Password,0.884505449417888,88.45,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT003,My account is locked after several failed login attempts.,Account & Password,Account & Password,0.8593253283125841,85.93,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT004,I cannot sign in to my computer using my domain credentials.,Account & Password,Account & Password,0.87109653555418,87.11,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT005,How can I change my current Windows password?,Account & Password,Account & Password,0.809694163786253,80.97,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT006,My username and password are not being accepted.,Account & Password,Account & Password,0.7988579280109177,79.89,True,70-80%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT007,I need assistance resetting my Microsoft 365 password.,Account & Password,Account & Password,0.8037979835962185,80.38,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT008,My account has been disabled and I cannot log in.,Account & Password,Account & Password,0.8794754140004816,87.95,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT009,I can log in to Windows but cannot access my work account.,Account & Password,Account & Password,0.8588669772441673,85.89,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT010,I am getting an authentication error when signing in.,Account & Password,Account & Password,0.4438865086118227,44.39,True,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT011,My computer is connected to WiFi but websites do not load.,Network & VPN,Network & VPN,0.4867616401123424,48.68,True,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT012,I cannot connect to the company VPN from home.,Network & VPN,Network & VPN,0.8763443574997067,87.63,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT013,The office network connection keeps disconnecting.,Network & VPN,Network & VPN,0.9008977261250192,90.09,True,90-100%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT014,I cannot access the internal company website.,Network & VPN,Network & VPN,0.859202770962302,85.92,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT015,My network adapter is showing an unidentified network.,Network & VPN,Network & VPN,0.6997305950557251,69.97,True,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT016,I cannot access shared folders on the office network.,Network & VPN,Network & VPN,0.8672209454943587,86.72,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT017,The VPN client gets stuck while connecting.,Network & VPN,Network & VPN,0.8309836398876189,83.1,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT018,My computer is receiving an invalid IP address.,Network & VPN,System Health,0.3889229391720131,38.89,False,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT019,Internet access is very slow on my office computer.,Network & VPN,Network & VPN,0.792876665832285,79.29,True,70-80%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT020,I am getting a DNS server not responding error.,Network & VPN,Software,0.4508699420045657,45.09,False,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT021,The network printer is not appearing on my computer.,Printer,Printer,0.7011276031317323,70.11,True,70-80%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT022,My printer displays an offline status.,Printer,Printer,0.8327859220239009,83.28,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT023,Documents are stuck in the Windows print queue.,Printer,Printer,0.8503934285630674,85.04,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT024,The printer is producing blank pages.,Printer,Printer,0.918566218887673,91.86,True,90-100%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT025,I cannot install the office printer driver.,Printer,Printer,0.8705431606227917,87.05,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT026,My computer cannot communicate with the network printer.,Printer,Network & VPN,0.6428766912923922,64.29,False,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT027,The printer is showing a paper jam warning.,Printer,Printer,0.9076415492063108,90.76,True,90-100%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT028,Print jobs are taking too long to complete.,Printer,System Health,0.6245494835061095,62.45,False,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT029,I cannot print PDF documents from my computer.,Printer,Printer,0.6245924245669261,62.46,True,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT030,The printer driver installation failed.,Printer,Printer,0.8855896451528456,88.56,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT031,Microsoft Excel closes unexpectedly when I open a workbook.,Software,Software,0.6199606156276778,62.0,True,60-70%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT032,The application freezes whenever I try to save a file.,Software,Software,0.8672264651856088,86.72,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT033,I receive an error when launching the company application.,Software,Software,0.7621208251087657,76.21,True,70-80%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT034,Microsoft Outlook is not opening on my computer.,Software,Software,0.5947152310822622,59.47,True,50-60%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT035,The software installation process keeps failing.,Software,Software,0.7772890229099507,77.73,True,70-80%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT036,An application displays a missing DLL error.,Software,Software,0.8777234918949592,87.77,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT037,My browser crashes when accessing the internal system.,Software,Software,0.557271338396842,55.73,True,50-60%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT038,The application is responding very slowly.,Software,Software,0.8109526285255562,81.1,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT039,I cannot update the installed software.,Software,Software,0.8499710945597145,85.0,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT040,The program reports that it has stopped working.,Software,Printer,0.3228255051703962,32.28,False,0-50%,HUMAN_REVIEW_REQUIRED,Confidence below the prototype threshold
+EXT041,My computer is running out of disk space.,System Health,System Health,0.8664783009515677,86.65,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT042,The laptop becomes very slow after startup.,System Health,System Health,0.7453630022009795,74.54,True,70-80%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT043,My computer overheats during normal operation.,System Health,System Health,0.8596122958970168,85.96,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT044,The system restarts automatically without warning.,System Health,System Health,0.8116414918146975,81.16,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT045,CPU usage remains at 100 percent.,System Health,System Health,0.7976975842109953,79.77,True,70-80%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT046,My laptop battery drains very quickly.,System Health,System Health,0.8571180142220921,85.71,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT047,Windows takes a long time to boot.,System Health,System Health,0.8514669114175628,85.15,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT048,The computer frequently displays a blue screen.,System Health,System Health,0.8210988479604774,82.11,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT049,RAM usage is unusually high when no applications are open.,System Health,System Health,0.7626820692513737,76.27,True,70-80%,AI_CLASSIFIED,Confidence meets the prototype threshold
+EXT050,My laptop shuts down unexpectedly.,System Health,System Health,0.870338777845389,87.03,True,80-90%,AI_CLASSIFIED,Confidence meets the prototype threshold

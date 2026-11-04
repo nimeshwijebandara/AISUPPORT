@@ -1,0 +1,51 @@
+﻿ticket_id,user_query,category,priority,expected_solution,cleaned_query
+1,I cannot log into my computer,Account & Password,High,"Verify the username, account status and login error. Follow the approved password reset process.",i cannot log into my computer
+2,I forgot my Windows password,Account & Password,Medium,Use the approved password recovery process and verify user identity.,i forgot my windows password
+3,My account is locked,Account & Password,High,Check account lockout status and follow the authorised account unlock procedure.,my account is locked
+4,I cannot access my user account,Account & Password,High,"Check account status, authentication details and access permissions.",i cannot access my user account
+5,My password is not accepted,Account & Password,Medium,"Check keyboard layout, account status and password reset requirements.",my password is not accepted
+6,I need to reset my password,Account & Password,Low,Follow the approved password reset and identity verification procedure.,i need to reset my password
+7,Windows says my account is disabled,Account & Password,High,Verify account status with the system administrator.,windows says my account is disabled
+8,I cannot authenticate to my account,Account & Password,High,Check authentication services and account permissions.,i cannot authenticate to my account
+9,My login credentials are not working,Account & Password,Medium,Verify the username and use the approved credential recovery procedure.,my login credentials are not working
+10,I am unable to sign in after changing my password,Account & Password,High,Check credential synchronisation and account authentication status.,i am unable to sign in after changing my password
+11,My internet connection is not working,Network & VPN,High,"Check network connectivity, IP configuration, gateway and DNS settings.",my internet connection is not working
+12,I cannot connect to the office VPN,Network & VPN,High,"Check internet access, VPN configuration and authentication status.",i cannot connect to the office vpn
+13,WiFi is connected but there is no internet,Network & VPN,High,"Check gateway connectivity, DNS resolution and network availability.",wifi is connected but there is no internet
+14,My computer cannot obtain an IP address,Network & VPN,High,Check network adapter and DHCP configuration.,my computer cannot obtain an ip address
+15,The network connection keeps disconnecting,Network & VPN,Medium,"Inspect adapter status, connection stability and network logs.",the network connection keeps disconnecting
+16,I cannot access the company network,Network & VPN,High,"Verify network connectivity, access permissions and VPN requirements.",i cannot access the company network
+17,DNS server is not responding,Network & VPN,Medium,Check DNS configuration and test name resolution.,dns server is not responding
+18,VPN connection keeps failing,Network & VPN,High,"Review VPN client status, server connectivity and authentication errors.",vpn connection keeps failing
+19,Network speed is very slow,Network & VPN,Medium,"Check connection quality, bandwidth usage and network performance.",network speed is very slow
+20,I cannot access internal websites,Network & VPN,Medium,"Check DNS, VPN connectivity and internal network access.",i cannot access internal websites
+21,My printer is showing offline,Printer,Medium,"Check printer power, network connectivity and printer status.",my printer is showing offline
+22,The printer is not printing documents,Printer,Medium,"Check print queue, printer connection and error messages.",the printer is not printing documents
+23,My printer paper is jammed,Printer,Medium,Follow the manufacturer-approved paper jam removal instructions.,my printer paper is jammed
+24,Printer driver is not working,Printer,Medium,Verify the printer model and installed driver compatibility.,printer driver is not working
+25,I cannot find the office printer,Printer,Low,Check printer network availability and printer installation settings.,i cannot find the office printer
+26,Documents are stuck in the print queue,Printer,Medium,Inspect the print queue and follow the approved queue recovery procedure.,documents are stuck in the print queue
+27,The printer is printing blank pages,Printer,Medium,"Check paper, toner or ink levels and print settings.",the printer is printing blank pages
+28,Printer connection has failed,Printer,Medium,Check USB or network connection and printer status.,printer connection has failed
+29,My computer cannot detect the printer,Printer,Medium,Verify device connectivity and printer driver installation.,my computer cannot detect the printer
+30,The printer keeps showing an error,Printer,Medium,Record the printer error code and consult the device documentation.,the printer keeps showing an error
+31,My application is not opening,Software,Medium,"Check application error messages, logs and software compatibility.",my application is not opening
+32,I cannot install new software,Software,Medium,"Check installation permissions, system requirements and installer logs.",i cannot install new software
+33,The application keeps crashing,Software,High,"Review application logs, updates and compatibility requirements.",the application keeps crashing
+34,Software installation failed,Software,Medium,Inspect the installation error and verify dependencies and permissions.,software installation failed
+35,My application is freezing,Software,Medium,Check application resource usage and relevant error logs.,my application is freezing
+36,I receive an error when opening software,Software,Medium,Record the error message and check software configuration.,i receive an error when opening software
+37,The software is not responding,Software,Medium,Check application processes and system resource availability.,the software is not responding
+38,I need help updating an application,Software,Low,Follow the approved software update procedure.,i need help updating an application
+39,The application reports a missing file,Software,Medium,Check application installation integrity and required dependencies.,the application reports a missing file
+40,My software license is not working,Software,Medium,Verify the licence status and authorised activation details.,my software license is not working
+41,My computer is running very slowly,System Health,Medium,"Inspect CPU, memory, disk usage and running processes.",my computer is running very slowly
+42,My computer has high CPU usage,System Health,Medium,Identify high CPU processes and review system resource usage.,my computer has high cpu usage
+43,My RAM usage is very high,System Health,Medium,Inspect memory consumption and running applications.,my ram usage is very high
+44,My disk space is almost full,System Health,Medium,Check disk usage and identify unnecessary files before approved cleanup.,my disk space is almost full
+45,My computer is overheating,System Health,High,"Check temperature, ventilation and hardware health.",my computer is overheating
+46,Windows is taking too long to start,System Health,Medium,"Inspect startup applications, system logs and disk health.",windows is taking too long to start
+47,My computer keeps freezing,System Health,High,"Check system logs, memory usage and hardware status.",my computer keeps freezing
+48,My computer restarts unexpectedly,System Health,High,Review system event logs and hardware or driver errors.,my computer restarts unexpectedly
+49,The hard drive is showing low space,System Health,Medium,Analyse storage usage and identify safe cleanup opportunities.,the hard drive is showing low space
+50,My system performance has decreased,System Health,Medium,"Inspect CPU, memory, storage and system performance indicators.",my system performance has decreased

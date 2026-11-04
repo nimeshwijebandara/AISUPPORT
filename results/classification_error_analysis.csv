@@ -1,0 +1,12 @@
+Test_ID,user_query,category,predicted_category,correct,error_type
+EXT010,I am getting an authentication error when signing in.,Account & Password,Printer,False,Account & Password -> Printer
+EXT011,My computer is connected to WiFi but websites do not load.,Network & VPN,System Health,False,Network & VPN -> System Health
+EXT018,My computer is receiving an invalid IP address.,Network & VPN,System Health,False,Network & VPN -> System Health
+EXT026,My computer cannot communicate with the network printer.,Printer,Network & VPN,False,Printer -> Network & VPN
+EXT028,Print jobs are taking too long to complete.,Printer,System Health,False,Printer -> System Health
+EXT029,I cannot print PDF documents from my computer.,Printer,System Health,False,Printer -> System Health
+EXT031,Microsoft Excel closes unexpectedly when I open a workbook.,Software,System Health,False,Software -> System Health
+EXT034,Microsoft Outlook is not opening on my computer.,Software,System Health,False,Software -> System Health
+EXT037,My browser crashes when accessing the internal system.,Software,System Health,False,Software -> System Health
+EXT042,The laptop becomes very slow after startup.,System Health,Network & VPN,False,System Health -> Network & VPN
+EXT047,Windows takes a long time to boot.,System Health,Account & Password,False,System Health -> Account & Password

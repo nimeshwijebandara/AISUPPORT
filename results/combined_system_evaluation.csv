@@ -1,0 +1,17 @@
+Component,Metric,Value
+Classification,Model,Logistic Regression
+Classification,Test Accuracy (%),100.0
+Classification,Test Macro F1 (%),100.0
+RAG,Total Evaluation Queries,15.0
+RAG,Recall@1 (%),100.0
+RAG,Recall@3 (%),100.0
+RAG,Recall@5 (%),100.0
+RAG,MRR,1.0
+Ticket Management,Total Tickets,6
+Ticket Management,Resolved Tickets,2
+Ticket Management,Open Tickets,3
+Ticket Management,In Progress Tickets,1
+Performance,Average FRT (Minutes),9.533333333333333
+Performance,Average Resolution (Minutes),30.291666666666668
+SLA,Response Compliance (%),100.0
+SLA,Resolution Compliance (%),100.0

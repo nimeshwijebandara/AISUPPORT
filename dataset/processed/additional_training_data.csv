@@ -1,0 +1,101 @@
+Training_ID,user_query,category
+ADD001,I cannot authenticate using my company username.,Account & Password
+ADD002,My Windows account password is no longer valid.,Account & Password
+ADD003,The login screen rejects my correct password.,Account & Password
+ADD004,I need to unlock my domain user account.,Account & Password
+ADD005,I cannot sign in after changing my password.,Account & Password
+ADD006,My Microsoft 365 account keeps requesting credentials.,Account & Password
+ADD007,The system says my user account is disabled.,Account & Password
+ADD008,I am unable to access my profile because of a login error.,Account & Password
+ADD009,My account is locked following multiple incorrect passwords.,Account & Password
+ADD010,I receive an authentication failure when logging in.,Account & Password
+ADD011,Windows asks me to enter my credentials repeatedly.,Account & Password
+ADD012,I cannot access my computer using my domain account.,Account & Password
+ADD013,My password reset request is not working.,Account & Password
+ADD014,The account sign-in process keeps failing.,Account & Password
+ADD015,I receive an invalid credentials notification.,Account & Password
+ADD016,My account cannot be authenticated by the domain.,Account & Password
+ADD017,I cannot access my work email due to a password issue.,Account & Password
+ADD018,The system does not recognise my username.,Account & Password
+ADD019,I am unable to change my expired password.,Account & Password
+ADD020,My user account has been blocked.,Account & Password
+ADD021,My laptop cannot connect to the office network.,Network & VPN
+ADD022,The company VPN connection fails repeatedly.,Network & VPN
+ADD023,I cannot browse websites despite being connected to WiFi.,Network & VPN
+ADD024,The network connection keeps dropping.,Network & VPN
+ADD025,I cannot access internal company servers.,Network & VPN
+ADD026,My computer cannot obtain an IP address.,Network & VPN
+ADD027,The DNS lookup is failing on my computer.,Network & VPN
+ADD028,I cannot connect to the corporate VPN server.,Network & VPN
+ADD029,My internet connection is unavailable.,Network & VPN
+ADD030,The network adapter reports limited connectivity.,Network & VPN
+ADD031,I cannot open shared network drives.,Network & VPN
+ADD032,The VPN client reports a connection timeout.,Network & VPN
+ADD033,The office network is extremely slow.,Network & VPN
+ADD034,My computer cannot reach the gateway.,Network & VPN
+ADD035,Internal websites are unavailable over the network.,Network & VPN
+ADD036,The WiFi connection disconnects frequently.,Network & VPN
+ADD037,I receive a network path not found error.,Network & VPN
+ADD038,My computer cannot communicate with the router.,Network & VPN
+ADD039,The VPN authentication server cannot be reached.,Network & VPN
+ADD040,I cannot access the internet from my office PC.,Network & VPN
+ADD041,My office printer is showing as offline.,Printer
+ADD042,The printer is not responding to print commands.,Printer
+ADD043,My print jobs remain stuck in the queue.,Printer
+ADD044,I cannot find the shared network printer.,Printer
+ADD045,The printer driver is missing from Windows.,Printer
+ADD046,The printer produces blank documents.,Printer
+ADD047,My printer cannot connect to its network address.,Printer
+ADD048,The printer displays a paper jam message.,Printer
+ADD049,I cannot print documents from Microsoft Word.,Printer
+ADD050,The printer installation failed.,Printer
+ADD051,The printer is printing very slowly.,Printer
+ADD052,My computer cannot detect the USB printer.,Printer
+ADD053,The print spooler service has stopped.,Printer
+ADD054,PDF printing fails on the office printer.,Printer
+ADD055,The printer displays an error status.,Printer
+ADD056,The printer is not accepting new jobs.,Printer
+ADD057,I cannot install the network printer.,Printer
+ADD058,The printer keeps disconnecting from Windows.,Printer
+ADD059,My documents are not coming out of the printer.,Printer
+ADD060,The printer driver is reporting an error.,Printer
+ADD061,Microsoft Excel crashes when opening a spreadsheet.,Software
+ADD062,Outlook fails to launch after clicking its icon.,Software
+ADD063,The business application freezes during data entry.,Software
+ADD064,The installed application displays an unexpected error.,Software
+ADD065,My browser crashes when opening a web application.,Software
+ADD066,The software installation wizard cannot complete.,Software
+ADD067,Microsoft Word stops responding when saving documents.,Software
+ADD068,The application reports a missing DLL file.,Software
+ADD069,I cannot update the installed business software.,Software
+ADD070,The application closes immediately after startup.,Software
+ADD071,A program is displaying an application error.,Software
+ADD072,My software is not responding to keyboard input.,Software
+ADD073,The company application cannot load its main screen.,Software
+ADD074,The application crashes when processing a transaction.,Software
+ADD075,The browser displays a script error.,Software
+ADD076,The software update fails during installation.,Software
+ADD077,I receive an error when opening a PDF application.,Software
+ADD078,The application is stuck on its loading screen.,Software
+ADD079,Microsoft Teams is not starting correctly.,Software
+ADD080,The software displays an unexpected runtime error.,Software
+ADD081,My computer is running slowly after startup.,System Health
+ADD082,The laptop overheats during normal usage.,System Health
+ADD083,Windows takes too long to boot.,System Health
+ADD084,My computer shuts down unexpectedly.,System Health
+ADD085,The system memory usage is unusually high.,System Health
+ADD086,My laptop battery drains very quickly.,System Health
+ADD087,The hard disk is almost full.,System Health
+ADD088,CPU usage remains very high even when idle.,System Health
+ADD089,The computer frequently displays a blue screen.,System Health
+ADD090,My laptop restarts without warning.,System Health
+ADD091,Windows startup takes several minutes.,System Health
+ADD092,The computer becomes unresponsive during normal use.,System Health
+ADD093,My laptop fan runs continuously at high speed.,System Health
+ADD094,The system reports insufficient disk space.,System Health
+ADD095,The computer performance has decreased significantly.,System Health
+ADD096,My device freezes even without opening applications.,System Health
+ADD097,The laptop becomes hot and shuts down.,System Health
+ADD098,Windows reports a hardware-related error.,System Health
+ADD099,The computer has very little available RAM.,System Health
+ADD100,My laptop takes a long time to become usable.,System Health

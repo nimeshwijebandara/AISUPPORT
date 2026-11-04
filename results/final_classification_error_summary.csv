@@ -1,0 +1,6 @@
+Error_Type,Error_Count
+Network & VPN -> System Health,2
+Network & VPN -> Software,1
+Printer -> Network & VPN,1
+Printer -> System Health,1
+Software -> System Health,1

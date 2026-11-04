@@ -1,0 +1,13 @@
+Test_ID,user_query,category,Predicted_Category,Confidence_Percentage,Correct,Review_Status
+EXT010,I am getting an authentication error when signing in.,Account & Password,Account & Password,49.58,True,HUMAN_REVIEW_REQUIRED
+EXT011,My computer is connected to WiFi but websites do not load.,Network & VPN,Network & VPN,49.01,True,HUMAN_REVIEW_REQUIRED
+EXT018,My computer is receiving an invalid IP address.,Network & VPN,System Health,43.93,False,HUMAN_REVIEW_REQUIRED
+EXT020,I am getting a DNS server not responding error.,Network & VPN,Software,54.99,False,HUMAN_REVIEW_REQUIRED
+EXT026,My computer cannot communicate with the network printer.,Printer,Network & VPN,62.85,False,HUMAN_REVIEW_REQUIRED
+EXT028,Print jobs are taking too long to complete.,Printer,System Health,64.72,False,HUMAN_REVIEW_REQUIRED
+EXT029,I cannot print PDF documents from my computer.,Printer,Printer,66.6,True,HUMAN_REVIEW_REQUIRED
+EXT031,Microsoft Excel closes unexpectedly when I open a workbook.,Software,Software,66.45,True,HUMAN_REVIEW_REQUIRED
+EXT034,Microsoft Outlook is not opening on my computer.,Software,Software,65.7,True,HUMAN_REVIEW_REQUIRED
+EXT037,My browser crashes when accessing the internal system.,Software,Software,59.32,True,HUMAN_REVIEW_REQUIRED
+EXT040,The program reports that it has stopped working.,Software,Printer,33.71,False,HUMAN_REVIEW_REQUIRED
+EXT048,The computer frequently displays a blue screen.,System Health,System Health,62.46,True,HUMAN_REVIEW_REQUIRED

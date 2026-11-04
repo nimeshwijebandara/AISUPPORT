@@ -1,0 +1,4 @@
+Threshold,Accepted_Predictions,Human_Review,Coverage_Percentage,Accuracy_Of_Accepted
+60,44,6,88.0,95.45454545454545
+70,38,12,76.0,100.0
+80,32,18,64.0,100.0

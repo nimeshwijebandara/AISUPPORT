@@ -1,0 +1,51 @@
+Test_ID,user_query,category,V4_Prediction,Confidence_Percentage,Correct
+EXT001,I cannot remember my Windows login password.,Account & Password,Account & Password,91.73,True
+EXT002,My domain account says the password has expired.,Account & Password,Account & Password,91.08,True
+EXT003,My account is locked after several failed login attempts.,Account & Password,Account & Password,89.75,True
+EXT004,I cannot sign in to my computer using my domain credentials.,Account & Password,Account & Password,88.58,True
+EXT005,How can I change my current Windows password?,Account & Password,Account & Password,83.57,True
+EXT006,My username and password are not being accepted.,Account & Password,Account & Password,84.88,True
+EXT007,I need assistance resetting my Microsoft 365 password.,Account & Password,Account & Password,83.6,True
+EXT008,My account has been disabled and I cannot log in.,Account & Password,Account & Password,90.29,True
+EXT009,I can log in to Windows but cannot access my work account.,Account & Password,Account & Password,87.72,True
+EXT010,I am getting an authentication error when signing in.,Account & Password,Account & Password,49.58,True
+EXT011,My computer is connected to WiFi but websites do not load.,Network & VPN,Network & VPN,49.01,True
+EXT012,I cannot connect to the company VPN from home.,Network & VPN,Network & VPN,90.41,True
+EXT013,The office network connection keeps disconnecting.,Network & VPN,Network & VPN,93.09,True
+EXT014,I cannot access the internal company website.,Network & VPN,Network & VPN,89.17,True
+EXT015,My network adapter is showing an unidentified network.,Network & VPN,Network & VPN,73.17,True
+EXT016,I cannot access shared folders on the office network.,Network & VPN,Network & VPN,89.26,True
+EXT017,The VPN client gets stuck while connecting.,Network & VPN,Network & VPN,86.85,True
+EXT018,My computer is receiving an invalid IP address.,Network & VPN,System Health,43.93,False
+EXT019,Internet access is very slow on my office computer.,Network & VPN,Network & VPN,84.19,True
+EXT020,I am getting a DNS server not responding error.,Network & VPN,Software,54.99,False
+EXT021,The network printer is not appearing on my computer.,Printer,Printer,71.36,True
+EXT022,My printer displays an offline status.,Printer,Printer,86.52,True
+EXT023,Documents are stuck in the Windows print queue.,Printer,Printer,89.4,True
+EXT024,The printer is producing blank pages.,Printer,Printer,95.32,True
+EXT025,I cannot install the office printer driver.,Printer,Printer,90.8,True
+EXT026,My computer cannot communicate with the network printer.,Printer,Network & VPN,62.85,False
+EXT027,The printer is showing a paper jam warning.,Printer,Printer,93.4,True
+EXT028,Print jobs are taking too long to complete.,Printer,System Health,64.72,False
+EXT029,I cannot print PDF documents from my computer.,Printer,Printer,66.6,True
+EXT030,The printer driver installation failed.,Printer,Printer,91.76,True
+EXT031,Microsoft Excel closes unexpectedly when I open a workbook.,Software,Software,66.45,True
+EXT032,The application freezes whenever I try to save a file.,Software,Software,90.22,True
+EXT033,I receive an error when launching the company application.,Software,Software,79.93,True
+EXT034,Microsoft Outlook is not opening on my computer.,Software,Software,65.7,True
+EXT035,The software installation process keeps failing.,Software,Software,79.7,True
+EXT036,An application displays a missing DLL error.,Software,Software,90.8,True
+EXT037,My browser crashes when accessing the internal system.,Software,Software,59.32,True
+EXT038,The application is responding very slowly.,Software,Software,84.7,True
+EXT039,I cannot update the installed software.,Software,Software,88.0,True
+EXT040,The program reports that it has stopped working.,Software,Printer,33.71,False
+EXT041,My computer is running out of disk space.,System Health,System Health,89.43,True
+EXT042,The laptop becomes very slow after startup.,System Health,System Health,75.7,True
+EXT043,My computer overheats during normal operation.,System Health,System Health,88.47,True
+EXT044,The system restarts automatically without warning.,System Health,System Health,84.72,True
+EXT045,CPU usage remains at 100 percent.,System Health,System Health,82.72,True
+EXT046,My laptop battery drains very quickly.,System Health,System Health,78.48,True
+EXT047,Windows takes a long time to boot.,System Health,System Health,87.38,True
+EXT048,The computer frequently displays a blue screen.,System Health,System Health,62.46,True
+EXT049,RAM usage is unusually high when no applications are open.,System Health,System Health,80.68,True
+EXT050,My laptop shuts down unexpectedly.,System Health,System Health,89.06,True

@@ -1,0 +1,6 @@
+Query,Expected_ID,Retrieved_IDs,Precision@3,Recall@3,MRR
+How can I reset my Windows password?,KB002,"KB002, KB001, KB003",0.3333333333333333,1.0,1.0
+My printer is showing offline,KB007,"KB007, KB009, KB008",0.3333333333333333,1.0,1.0
+I cannot access the internet,KB004,"KB004, KB006, KB005",0.3333333333333333,1.0,1.0
+My office VPN is not connecting,KB005,"KB005, KB004, KB006",0.3333333333333333,1.0,1.0
+My application will not open,KB010,"KB010, KB012, KB011",0.3333333333333333,1.0,1.0

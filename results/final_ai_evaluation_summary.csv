@@ -1,0 +1,7 @@
+Component,Metric,Value
+Classification,Test Accuracy,1.0
+Classification,Test Macro F1,1.0
+RAG,Recall@1,1.0
+RAG,Recall@3,1.0
+RAG,Recall@5,1.0
+RAG,MRR,1.0
