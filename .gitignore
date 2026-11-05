@@ -69,3 +69,15 @@ desktop.ini
 .env.*
 !.env.example
 .streamlit/secrets.toml
+
+
+# Ticket attachments and uploaded files
+uploads/
+# Local application backups
+frontend/app_backup*.py
+frontend/app_before_*.py
+frontend/app_fixed*.py
+frontend/backups/
+# Temporary inspection outputs
+results/*audit*.txt
+results/*inspection*.txt
