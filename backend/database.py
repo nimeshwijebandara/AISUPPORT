@@ -4,15 +4,36 @@ import sqlite3
 from pathlib import Path
 from contextlib import contextmanager
 
+import streamlit as st
 from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
 
-DATABASE_MODE = os.getenv("DATABASE_MODE", "sqlite").strip().lower()
+
+def get_config(key, default=None):
+    # Streamlit Cloud Secrets
+    try:
+        value = st.secrets.get(key)
+        if value is not None:
+            return value
+    except Exception:
+        pass
+
+    # Local environment variables
+    return os.getenv(key, default)
+
+
+DATABASE_MODE = str(
+    get_config("DATABASE_MODE", "sqlite")
+).strip().lower()
 
 SQLITE_PATH = BASE_DIR / "database" / "helpdesk.db"
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+
+DATABASE_URL = str(
+    get_config("DATABASE_URL", "")
+).strip()
+
 
 
 def get_connection():
