@@ -1,5 +1,4 @@
 import sys
-
 import streamlit as st
 import sqlite3
 import bcrypt
@@ -11,27 +10,23 @@ import smtplib
 import mimetypes
 import uuid
 from email.message import EmailMessage
-
 from pathlib import Path
 from datetime import datetime, timedelta
 from sentence_transformers import SentenceTransformer
 
-# Portable paths for Windows and cloud deployment
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 DB_PATH = BASE_DIR / "database" / "helpdesk.db"
 MODEL_PATH = BASE_DIR / "models" / "it_helpdesk_classifier_v4.pkl"
 VECTOR_DIR = BASE_DIR / "knowledge_base" / "vector_store"
-
-# Ensure required local directories exist
 DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 VECTOR_DIR.mkdir(parents=True, exist_ok=True)
 ATTACHMENT_DIR = BASE_DIR / "uploads" / "ticket_attachments"
 MAX_ATTACHMENT_SIZE = 10 * 1024 * 1024  # 10 MB
-CONFIDENCE_THRESHOLD = 0.70  # Predictions below 70% require human review.
+CONFIDENCE_THRESHOLD = 0.70  
 ALLOWED_ATTACHMENT_EXTENSIONS = {"png", "jpg", "jpeg", "pdf", "doc", "docx", "txt", "log", "csv"}
 
-# SLA targets are calendar hours (not business hours). Adjust to your organisation's policy.
 SLA_TARGETS = {
     "High": {"response_hours": 1, "resolution_hours": 8},
     "Medium": {"response_hours": 4, "resolution_hours": 24},
@@ -44,14 +39,10 @@ st.set_page_config(
     layout="wide"
 )
 
-# ----------------------------------
+
 # AUTHENTICATION
-# ----------------------------------
-
-
-# ------------------------------------
 # BACKEND MODULE PATH CONFIGURATION
-# ------------------------------------
+
 BACKEND_DIR = BASE_DIR / "backend"
 
 if str(BACKEND_DIR) not in sys.path:
@@ -122,7 +113,7 @@ def authenticate_user(username, password):
 
 
         # Both SQLite Row and PostgreSQL RealDictRow
-        # support access using column names.
+
         stored_hash = user["password_hash"]
 
         if not stored_hash:
@@ -152,9 +143,9 @@ def login_required():
     return "user" in st.session_state
 
 
-# ----------------------------------
+
 # LOGIN PAGE
-# ----------------------------------
+
 
 if not login_required():
 
@@ -201,16 +192,11 @@ if not login_required():
     st.stop()
 
 
-# ----------------------------------
+
 # CURRENT USER
-# ----------------------------------
-
 current_user = st.session_state["user"]
-
-
-# ----------------------------------
 # TICKET COMMENTS DATABASE
-# ----------------------------------
+
 
 
 def send_email_notification(
@@ -1046,9 +1032,9 @@ if st.sidebar.button("Logout"):
     st.rerun()
 
 
-# ----------------------------------
+
 # ROLE-BASED NAVIGATION
-# ----------------------------------
+
 
 role = current_user["role"]
 
@@ -1080,9 +1066,9 @@ menu = st.sidebar.radio(
 st.title("AI-Based IT Helpdesk")
 
 
-# ----------------------------------
+
 # LOAD AI COMPONENTS
-# ----------------------------------
+
 @st.cache_resource
 def load_ai_components(model_path, vector_dir, model_version):
 
@@ -1131,7 +1117,6 @@ def load_ai_components(model_path, vector_dir, model_version):
             f"Missing knowledge-base columns: {missing_columns}"
         )
 
-    # 6. Import records only if collection is empty
     if collection.count() == 0:
 
         documents = (
@@ -1168,10 +1153,6 @@ def load_ai_components(model_path, vector_dir, model_version):
 
     return classifier, collection, embedding_model
 
-
-
-# Include model file modification time in the cache key.
-# This forces a reload when the model file changes.
 classifier, collection, embedding_model = load_ai_components(
     str(MODEL_PATH),
     str(VECTOR_DIR),
@@ -1182,9 +1163,9 @@ st.sidebar.caption(
     f"Loaded model: {MODEL_PATH.name}"
 )
 
-# ----------------------------------
+
 # AI FUNCTIONS
-# ----------------------------------
+
 
 def classify_issue(query):
 
@@ -1220,9 +1201,9 @@ def retrieve_knowledge(query, category, top_k=3):
     )
 
 
-# ----------------------------------
+
 # CREATE TICKET
-# ----------------------------------
+
 
 def create_support_ticket(
     title,
@@ -1309,9 +1290,9 @@ def create_support_ticket(
     finally:
         conn.close()
 
-# ----------------------------------
+
 # AI HELPDESK
-# ----------------------------------
+
 
 if menu == "AI Helpdesk":
 
@@ -1473,9 +1454,9 @@ if menu == "AI Helpdesk":
                     )
 
 
-# ----------------------------------
+
 # MY TICKETS
-# ----------------------------------
+
 
 elif menu == "My Tickets":
 
@@ -1689,9 +1670,9 @@ elif menu == "My Tickets":
                     )
 
 
-# ----------------------------------
+
 #  ADMIN DASHBOARD
-# ----------------------------------
+
 
 
 
@@ -2067,32 +2048,49 @@ elif menu == "Admin Dashboard":
     )
 
 
-# ----------------------------------
-    # PERFORMANCE ANALYTICS
-    # ----------------------------------
+
+# PERFORMANCE ANALYTICS
+
 
     st.divider()
     st.header("IT Support Performance Analytics")
 
-    analytics_conn = sqlite3.connect(DB_PATH)
+     import database
 
-    analytics_df = pd.read_sql_query("""
-        SELECT
-            t.ticket_id,
-            t.priority,
-            t.status,
-            t.created_at,
-            t.first_response_at,
-            t.resolved_at,
-            t.response_due_at,
-            t.resolution_due_at,
-            u.username AS support_staff
-        FROM tickets t
-        LEFT JOIN users u
-            ON t.assigned_to = u.user_id
-    """, analytics_conn)
+    with database.database_connection() as analytics_conn:
+        analytics_rows = database.fetch_all(
+            analytics_conn,
+            """
+            SELECT
+                t.ticket_id,
+                t.priority,
+                t.status,
+                t.created_at,
+                t.first_response_at,
+                t.resolved_at,
+                t.response_due_at,
+                t.resolution_due_at,
+                u.username AS support_staff
+            FROM tickets t
+            LEFT JOIN users u
+                ON t.assigned_to = u.user_id
+            """
+        )
 
-    analytics_conn.close()
+    analytics_df = pd.DataFrame(
+        [dict(row) for row in analytics_rows],
+        columns=[
+            "ticket_id",
+            "priority",
+            "status",
+            "created_at",
+            "first_response_at",
+            "resolved_at",
+            "response_due_at",
+            "resolution_due_at",
+            "support_staff"
+        ]
+    )
 
     for col in [
         "created_at",
@@ -2176,9 +2174,9 @@ elif menu == "Admin Dashboard":
     )
 
 
-    # ----------------------------------
-    # ADVANCED PERFORMANCE ANALYTICS
-    # ----------------------------------
+
+# ADVANCED PERFORMANCE ANALYTICS
+
 
     st.divider()
     st.subheader("Advanced Performance Analytics")
@@ -2369,23 +2367,6 @@ elif menu == "Admin Dashboard":
         st.bar_chart(priority_counts)
     else:
         st.info("No priority data is available.")
-
-
-
-##-----------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
