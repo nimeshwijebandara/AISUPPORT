@@ -12,7 +12,17 @@ load_dotenv(BASE_DIR / ".env")
 
 
 def get_config(key, default=None):
-    # Streamlit Cloud Secrets
+    # First: read nested [database] secrets
+    try:
+        database_secrets = st.secrets.get("database", {})
+        value = database_secrets.get(key.lower())
+
+        if value is not None:
+            return value
+    except Exception:
+        pass
+
+    # Second: read root-level Streamlit secrets
     try:
         value = st.secrets.get(key)
         if value is not None:
@@ -20,8 +30,9 @@ def get_config(key, default=None):
     except Exception:
         pass
 
-    # Local environment variables
+    # Third: read local environment variables
     return os.getenv(key, default)
+
 
 
 DATABASE_MODE = str(
