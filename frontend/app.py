@@ -57,31 +57,69 @@ BACKEND_DIR = BASE_DIR / "backend"
 if str(BACKEND_DIR) not in sys.path:
     sys.path.insert(0, str(BACKEND_DIR))
 
+import logging
+
 def authenticate_user(username, password):
-    """
-    Authenticate a user using the configured database adapter.
-    Compatible with SQLite and PostgreSQL.
-    """
+    """Authenticate a user using SQLite or PostgreSQL."""
 
     if not username or not password:
+        logging.warning("Login rejected: empty username or password")
         return None
 
     import database
 
     try:
+        logging.info(
+            "Authentication started. Database mode: %s",
+            database.get_database_type()
+        )
+
         with database.database_connection() as conn:
             user = database.fetch_one(
                 conn,
                 """
                 SELECT user_id, username, password_hash, role
                 FROM users
-                WHERE LOWER(username) = LOWER(?)
+                WHERE LOWER(TRIM(username)) = LOWER(TRIM(?))
                 """,
                 (username.strip(),)
             )
 
         if not user:
+            logging.warning("Authentication failed: user not found")
             return None
+
+        stored_hash = user["password_hash"]
+
+        if not stored_hash:
+            logging.error("Authentication failed: password hash missing")
+            return None
+
+        if isinstance(stored_hash, str):
+            stored_hash = stored_hash.encode("utf-8")
+
+        valid = bcrypt.checkpw(
+            password.encode("utf-8"),
+            stored_hash
+        )
+
+        if not valid:
+            logging.warning("Authentication failed: password mismatch")
+            return None
+
+        logging.info("Authentication successful for user ID: %s",
+                     user["user_id"])
+
+        return {
+            "user_id": user["user_id"],
+            "username": user["username"],
+            "role": user["role"]
+        }
+
+    except Exception:
+        logging.exception("Authentication process failed")
+        return None
+
 
         # Both SQLite Row and PostgreSQL RealDictRow
         # support access using column names.
